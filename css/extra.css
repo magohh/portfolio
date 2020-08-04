@@ -1,0 +1,48 @@
+nav.menu{
+	background-color: transparent;
+	box-shadow: none;
+	font-family: 'Noto Sans JP', sans-serif;
+	color:#000099;
+}
+nav.white{
+    box-shadow: none;
+}
+.nav-wrapper{margin:0 2em;}
+nav .brand-logo{font-size: 1rem;}
+.height-300{height: 300px;}
+.height-400{height: 400px;}
+.height-500{height: 500px;}
+.adjust{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.margin-auto{margin:auto;}
+.log{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 85%;
+    bottom: 0;
+    margin: auto;
+    opacity: .7;
+}
+nav.nav-center{
+    height: 100px;
+    line-height: 100px;
+}
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+    color:#000;
+}
+.width-100{width: 100%;}
