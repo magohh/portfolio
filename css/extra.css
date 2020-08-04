@@ -18,14 +18,17 @@ nav .brand-logo{font-size: 1rem;}
     object-fit: cover;
     object-position: center center;
 }
-
+.insta{
+    height: 30px;
+    margin-top: 1em;
+}
 .margin-auto{margin:auto;}
 .log{
 	position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    width: 85%;
+    left: 5%;
+    right: 5%;
+    width: 75%;
     bottom: 0;
     margin: auto;
     opacity: .7;
@@ -46,3 +49,4 @@ nav.nav-center ul li a {
     color:#000;
 }
 .width-100{width: 100%;}
+.width-20{width: 20%;}
