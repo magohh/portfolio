@@ -44,6 +44,7 @@ nav .brand-logo{font-size: 1rem;}
 .margin-bottom-15{margin-bottom: 15px;}
 .margin-2{margin:2em;}
 .padding-3{padding:3em;}
+
 .log{
 	position: absolute;
     top: 0;
@@ -54,6 +55,7 @@ nav .brand-logo{font-size: 1rem;}
     margin: auto;
     opacity: .7;
 }
+
 nav.nav-center{
     height: 100px;
     line-height: 100px;
@@ -92,3 +94,26 @@ nav.nav-center ul li a {
 .open-regular{font-family: 'Open Sans', sans-serif;}
 .pointer{cursor: pointer;}
 .modal{max-height: 100%;}
+
+.contain{object-fit: contain;}
+
+@media all and (min-width: 0px) and (max-width: 600px){
+        .log{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        bottom: 0;
+        margin: auto;
+        opacity: .7;
+    }
+    .parallax-container{height: 500px!important;}
+    .w-35-vw{width: 90vw;}
+    .margin-5{margin:1em;}
+}
+@media all and (min-width: 600px) and (max-width: 1600px){
+    .w-35-vw{width: 70vw;}
+    .margin-5{margin:1em;}
+    .parallax-container{height: 700px!important;}
+}
