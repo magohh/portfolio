@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	$('.sidenav').sidenav();
 	});
-	$(document).ready(function(){
+$(document).ready(function(){
 	$('.parallax').parallax();
   });
 $(document).ready(function(){
@@ -17,4 +17,7 @@ $(document).ready(function(){
   });
  $(document).ready(function(){
     $('.modal').modal();
+    $('.dropdown-trigger').dropdown();
+        $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1')); 
   });
