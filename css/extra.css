@@ -136,3 +136,9 @@ nav ul li.active {
 .dropdown-content{
     width: 100%;
 }
+.btn-1{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif,regular;
+    border: none;
+    padding: 1em;
+}
