@@ -124,3 +124,21 @@ nav.nav-center ul li a {
 nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
+.about{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.dropdown-content{
+    width: 100%;
+}
+.btn-1{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif,regular;
+    border: none;
+    padding: 1em;
+}
