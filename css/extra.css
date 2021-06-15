@@ -29,6 +29,8 @@ nav .brand-logo{font-size: 1rem;}
 .filter-gray{
     filter: grayscale();
 }
+
+.contain{object-fit: contain;}
 .filter-gray:hover{filter: none;}
 .invert{filter: invert(70%);}
 .top-position{object-position: top center;}
