@@ -18,6 +18,7 @@ nav .brand-logo{font-size: 1rem;}
 .h-20{height: 20px;}
 
 .fz1--2{font-size: 1.2em;}
+.fz1--5{font-size: 1.5em;}
 .fz-2{font-size: 2em;}
 .padding-0{padding:0;}
 .w-100{width: 100%;}
@@ -29,7 +30,7 @@ nav .brand-logo{font-size: 1rem;}
 .filter-gray{
     filter: grayscale();
 }
-
+.cover{object-fit: cover;}
 .contain{object-fit: contain;}
 .filter-gray:hover{filter: none;}
 .invert{filter: invert(70%);}
@@ -50,6 +51,26 @@ nav .brand-logo{font-size: 1rem;}
 .margin-2{margin:2em;}
 .padding-3{padding:3em;}
 
+.relative{position: relative;}
+.absolute{position: absolute;}
+.adjust:hover + .name{
+    opacity: 1;
+}
+.text-name{
+    margin: 2rem auto;
+    text-align: center;
+}
+.name{
+    background-color: rgba(0,0,0,.5);
+    height: 100px;
+    width: 92%;
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    left: 0;
+    margin-left: .75rem;
+    opacity: 0;
+}
 .log{
 	position: absolute;
     top: 0;
@@ -144,3 +165,9 @@ nav ul li.active {
     border: none;
     padding: 1em;
 }
+.height-300-r{height: 300px;}
+@media all and (min-width: 0px) and (max-width: 600px){
+.height-300-r{height: auto;}
+}
+.modal{top: 5%;}
+.modal-close{font-size: 1.4em;text-transform: lowercase;padding: 0}
